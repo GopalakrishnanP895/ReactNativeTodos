@@ -105,15 +105,16 @@ const styles = StyleSheet.create({
         padding: 20
     },
     listContainer: {
-        marginTop: 10
+        marginTop: 10,
+        flex: 1
     },
     fabIcon:{
         position: "absolute",
         width: 50,
         height: 50,
         borderRadius: 32,
-        bottom: 10,
-        right: 5,
+        bottom: 40,
+        right: 50,
         backgroundColor: "pink",
         alignItems: "center",
         justifyContent: "center"

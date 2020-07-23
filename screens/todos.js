@@ -22,6 +22,7 @@ export default Todos;
 const styles = StyleSheet.create({
     container:{
         marginTop: Constants.statusBarHeight,
-        padding: 20
+        padding: 20,
+        flex:1
     }
 })
